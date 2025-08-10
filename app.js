@@ -14,6 +14,12 @@ function agregarAmigo() {
         return; // detenemos la función aquí
     }
 
+    // Validar si el nombre ya existe
+    if (listaAmigos.includes(amigo)) {
+        alert("Este nombre ya está en la lista.");
+        return;
+    }
+
     // Si pasa la validación, agregamos
     listaAmigos.push(amigo);
     ingresarAmigo.value = ""; // limpiar input
@@ -47,6 +53,9 @@ function sortearAmigo() {
 
     // Obtener el nombre sorteado
     const amigoSorteado = listaAmigos[indiceAleatorio];
+        
+    // Eliminar al amigo sorteado del array
+    listaAmigos.splice(indiceAleatorio, 1);
 
     // Mostrar el resultado en el <ul>
     const resultadoAmigo = document.getElementById("resultado");
