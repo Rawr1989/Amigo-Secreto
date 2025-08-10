@@ -48,5 +48,5 @@ function sortearAmigo() {
 
     // Mostrar el resultado en el <ul>
     const resultadoHTML = document.getElementById("resultado");
-    resultadoHTML.innerHTML = `<li>${amigoSorteado}</li>`;
+    resultadoHTML.innerHTML = `<li>Tu amigo secreto es ${amigoSorteado}</li>`;
 }
