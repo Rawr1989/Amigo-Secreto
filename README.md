@@ -21,14 +21,15 @@ Además, conserva la lista completa visible para mantener el misterio intacto du
 
 ### Opción 1: Usar la versión publicada
 
-Abre el siguiente enlace en tu navegador para usar el juego directamente sin instalar nada:  
-https://rawr1989.github.io/Amigo-Secreto/
+- Abre el siguiente enlace en tu navegador para usar el juego directamente sin instalar nada: 
+   ```bash
+   https://rawr1989.github.io/Amigo-Secreto/
 
 ### Opción 2: Clonar y ejecutar localmente
 
 1. Clona o descarga este repositorio:  
    ```bash
-   git clone https://github.com/Rawr1989/Amigo-Secreto.git
+   https://github.com/Rawr1989/Amigo-Secreto.git
 2. Abre index.html en tu navegador favorito (Chrome, Firefox, Edge, Safari).
 3. No requiere instalación de dependencias ni servidor local, solo un navegador moderno.
 
@@ -41,7 +42,7 @@ https://rawr1989.github.io/Amigo-Secreto/
 3. Cuando la lista tenga amigos, haz clic en Sortear amigo para obtener tu amigo secreto.
 4. El resultado aparecerá en pantalla y la lista completa permanecerá visible para no revelar pistas.
 
-![Instrucciones](assets/instrucciones.gif)
+![Instrucciones](assets/Instrucciones.gif)
 
 ---
 
@@ -73,4 +74,4 @@ Así nadie puede deducir quién queda y el juego mantiene su encanto.
 
 ## 👋 Contacto
 ¿Quieres sugerir mejoras o colaborar?
-Abre un issue o contáctame en https://github.com/Rawr1989
+Contáctame en https://github.com/Rawr1989
